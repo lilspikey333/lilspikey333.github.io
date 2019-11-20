@@ -1,0 +1,51 @@
+body {
+    font-family: 'Quicksand', sans-serif;;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 200px;
+    background-color: #193247;
+    color: #afb5ba;
+}
+
+h1 {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+    margin-left: 1em;
+}
+
+h2 {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+    padding: 3em;
+}
+
+section {
+    padding-top: 4em;
+    padding-right: 3em;
+    padding-bottom: 5em;
+    grid-row: 1;
+    grid-column: 3 / span 3;
+    text-align: justify;
+}
+h3 {
+    text-decoration: underline;
+}
+footer {
+    grid-row: 2;
+    grid-column: 1 / span 5;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 2fr;
+    background-color: #afb5ba;
+}
+.facebook {
+    width: 100px;
+    margin: 30px;
+}
+.twitter {
+    width: 100px;
+    margin: 30px;
+}
+.github {
+    width: 90px;
+    margin: 30px;
+}
